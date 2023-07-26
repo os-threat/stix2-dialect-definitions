@@ -1,6 +1,6 @@
 # Stix2-Dialect-Definitions
 
-The OASIS Stix2 Python Library is a vey powerful capability, yet limited to the Stix 2.1 objects defined in its system. OS-Threat has extended the Stix 2 library to support
+The OASIS Stix2 Python Library has a vey powerful capability, to validate, create, store, send, retrieve Domain, Observable and Relationship Objects yet limited to the Stix 2.1 objects defined in its system. OS-Threat has extended the Stix 2 library to support
 - the use of TypeDB as a DataStore, making it simple to add, retrieve and delete Stix2-compatible objects in the knowledge Graph
 - developing definitions comptaible with the OASIS Stix2 library, for new dialects to extend library capabilities to: 
     - Incident-Core, (standardised incident management and reporting)
