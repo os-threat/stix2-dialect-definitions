@@ -1,0 +1,7 @@
+{
+    "strongly-disagree": "The creator strongly disagrees with the information and believes it is inaccurate or incorrect.\n This MAY be considered equivalent to a 1 in a numeric scale.",
+    "disagree": "The creator disagrees with the information and believes it is inaccurate or incorrect.\n\n This MAY be considered equivalent to a 2 in a numeric scale.",
+    "neutral": "The creator is neutral about the accuracy or correctness of the information.\n\nThis MAY be considered equivalent to a 3 in a numeric scale.",
+    "agree": "The creator agrees with the information and believes that it is accurate and correct.\n\nThis MAY be considered equivalent to a 4 in a numeric scale.",
+    "strongly-agree": "The creator strongly agrees with the information and believes that it is accurate and correct.\n\nThis MAY be considered equivalent to a 5 in a numeric scale."
+}

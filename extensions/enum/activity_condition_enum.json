@@ -1,0 +1,6 @@
+{
+    "optional": "The following event or task does not depend on the current one.",
+    "test": "The following event or task depends on the current one",
+    "required": "The following event or task depends on the current one.",
+    "unknown": "It is unknown if the following event or task depends on the current on"
+}

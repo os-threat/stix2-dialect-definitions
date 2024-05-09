@@ -1,0 +1,6 @@
+{
+    "SERVICE_KERNEL_DRIVER": "The service is a device driver.",
+    "SERVICE_FILE_SYSTEM_DRIVER": "The service is a file system driver.",
+    "SERVICE_WIN32_OWN_PROCESS": "The service runs in its own process.",
+    "SERVICE_WIN32_SHARE_PROCESS": "The service shares a process with other services."
+}

@@ -1,0 +1,13 @@
+[
+    {"source":["intrusion-set"], "relationship_types": "uses", "target":["malware", "tool"], "description":"Group using a software."},
+    {"source":["intrusion-set"], "relationship_types": "uses", "target":["attack-pattern"], "description":"Group using a technique, which is also considered a procedure example."},
+    {"source":["malware", "tool"], "relationship_types": "uses", "target":["attack-pattern"], "description":"Software using a technique, which is also considered a procedure example."},
+    {"source":["campaign"], "relationship_types": "uses", "target":["malware", "tool"], "description":"Campaign using a software."},
+    {"source":["campaign"], "relationship_types": "uses", "target":["attack-pattern"], "description":"Campaign using a technique, which is also considered a procedure example."},
+    {"source":["campaign"], "relationship_types": "attributed-to", "target":["intrusion-set"], "description":"Campaign attributed to a group."},
+    {"source":["course-of-action"], "relationship_types": "mitigates", "target":["attack-pattern"], "description":"Mitigation mitigating technique."},
+    {"source":["attack-pattern"], "relationship_types": "subtechnique-of", "target":["attack-pattern"], "description":"Sub-technique of a technique, where the source_ref is the sub-technique and the target_ref is the parent technique."},
+    {"source":["x-mitre-data-component"], "relationship_types": "detects", "target":["attack-pattern"], "description":"Data component detecting a technique."},
+    {"source":["attack-pattern"], "relationship_types": "targets", "target":["x-mitre-asset"], "description":"Technique targets an asset."},
+    {"source":["_attack"], "relationship_types": "revoked-by", "target":["_attack"], "description":"The target object is a replacement for the source object. Only occurs where the objects are of the same type, and the source object will have the property revoked = true."}    
+]

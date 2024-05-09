@@ -1,0 +1,13 @@
+{
+    "facebook": "Specifies a Facebook account.",
+    "ldap": "Specifies an LDAP account.",
+    "nis": "Specifies a NIS account",
+    "openid": "Specifies an OpenID account.",
+    "radius": "Specifies a RADIUS account.",
+    "skype": "Specifies a Skype account.",
+    "tacacs": "Specifies a TACACS account.",
+    "twitter": "Specifies a Twitter account.",
+    "unix": "Specifies a POSIX account.",
+    "windows-local": "Specifies a Windows local account.",
+    "windows-domain": "Specifies a Windows domain account."
+}

@@ -1,0 +1,8 @@
+{
+    "stix": "Specifies the STIX pattern language defined in section 9.",
+    "pcre": "Specifies the Perl Compatible Regular Expressions language [PCRE].",
+    "sigma": "Specifies the SIGMA language.",
+    "snort": "Specifies the SNORT language [SNORT].",
+    "suricata": "Specifies the SURICATA language [Suricata].",
+    "yara": "Specifies the YARA language [YARA]."
+}

@@ -1,0 +1,24 @@
+{
+    "administrative": "Perform an administrative action such as the introduction or change of a policy.",
+    "attribution": "Perform an administrative action such as the introduction or change of a policy.",
+    "containment": "The containment phase of incident response",
+    "declared": "When this was officially declared an incident.",
+    "detected": "When the incident was detected.",
+    "eradication": "The eradication phase of incident response.",
+    "escalated": "When the incident was escalated to a major incident.",
+    "exercised-control": "Attempted to use a security control that was already in place within the environment.",
+    "external-intelligence": "Used external intelligence information.",
+    "external-outreach": "Reaching out to an external organization to gain support or information.",
+    "external-support": "Acquire support from an external organization.",
+    "implemented-control": "Implemented a security control within the environment.",
+    "investigation": "Performed an investigation into an event or incident.",
+    "negotiation": "Negotiation of a deal or payment amount.",
+    "playbook-execution": "Executing a step in an automated playbook. If the playbook is stored outside of STIX both the playbook and step stored in separate external-reference objects. If playbook steps feed each other information that is designed to be passed as STIX it SHOULD be referenced as a grouping as either the initial_ref or result_ref of a state-change.",
+    "playbook-step-execution": "Executing a step in an automated playbook. If the playbook is stored outside of STIX both the playbook and step stored in separate external-reference objects. If playbook steps feed each other information that is designed to be passed as STIX it SHOULD be referenced as a grouping as either the initial_ref or result_ref of a state-change.",
+    "ransom-payment": "An actual payment of a ransom.",
+    "recovery": "The recovery phase of incident response.",
+    "reported": "When the incident was reported externally.",
+    "routine-updates": "Performed a routine update in the environment including patching.",
+    "victim-notification": "Notified victims, potentially impacted individuals or organizations about the incident."
+
+}
