@@ -4,8 +4,8 @@ The OASIS Stix2 Python Library has a vey powerful capability, to validate, creat
 - the use of TypeDB as a DataStore, making it simple to add, retrieve and delete Stix2-compatible objects in the knowledge Graph
 - developing vocab, enum and SRO constraint definitions comptaible with the OASIS Stix2 library,: 
     - stix -> Stix v2.1
-    - extensions -> Incident-Core and other extensions
-    - osthreat -> OS-Threat,  (custom objects for importing threat feeds)
+    - extensions -> Incident-Core and Identity-Contact-Information extensions
+    - osthreat -> OS-Threat,  (custom objects for relating identity's)
     - attack -> ATT&CK , (Mitre ATT&CK Reference Library Objects)
 now, 
 

@@ -1,0 +1,7 @@
+{
+    "classified":  "A work email address that can be used to reach the individual on a classified network.",
+    "organizational":  "A shared email address for an organization.",
+    "personal":  "A personal email address.",
+    "unclassified":  "A work email address that can be used to reach the individual on an unclassified network.",
+    "work": "A work email address that can be used to reach the individual when no distinction is required between classified or unclassified systems."
+}
