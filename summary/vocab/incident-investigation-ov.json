@@ -1,0 +1,5 @@
+{
+    "closed": "All defender work on this incident has been concluded. In some cases, blue teams may make child Incidents of a closed Incident. In these cases, it is appropriate to mark an initial Incident as closed if the related child incidents that track this work are still open.",
+    "new": "A new incident that has not begun the formal workflow on the defender’s network.",
+    "open": "An open incident that is currently being worked."
+}

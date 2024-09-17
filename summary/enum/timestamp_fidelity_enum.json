@@ -1,0 +1,8 @@
+{
+    "day": "The associated timestamp should be considered to represent a time within the one day period starting with the provided timestamp.Hours and minutes should be understood to establish the timezone for this activity.",
+    "hour": "The associated timestamp should be considered to represent a time within the one hour period starting with the provided timestamp.",
+    "minute": "The associated timestamp should be considered to represent a time within the one minute period starting with the provided timestamp.",
+    "month": "The associated timestamp should be considered to represent a time within the one month period starting with the provided timestamp. Hours and minutes should be understood to establish the timezone for the activity. The day should always be listed as the first or the last day of the previous month if in a timezone that is offset before UTC.",
+    "second": "The associated timestamp should be considered to represent a time within the one second period starting with the provided timestamp.",
+    "year": "The associated timestamp should be considered to represent a time within the one year period starting with the provided timestamp. Hours and minutes should be understood to establish the timezone for the activity."
+}

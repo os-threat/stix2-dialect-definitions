@@ -1,0 +1,6 @@
+[
+    {"source":["identity"], "relationship_types": "employed-by", "target":["identity"], "description":"The source is employed by the targe"},
+    {"source":["identity"], "relationship_types": "asset-of", "target":["identity"], "description":"The source is an asset owned by the traget"},
+    {"source":["identity"], "relationship_types": "system-of", "target":["identity"], "description":"The source is a system owned by the target"},
+    {"source":["identity"], "relationship_types": "contracted-by", "target":["identity"], "description":"The source is a congtractor of the target"}    
+]

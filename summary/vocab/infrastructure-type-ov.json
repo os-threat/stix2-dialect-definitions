@@ -1,0 +1,17 @@
+{
+    "amplification": "Specifies infrastructure used for conducting amplification attacks.",
+    "anonymization": "Specific infrastructure used for anonymization, such as a proxy.",
+    "botnet": "Specifies the membership/makeup of a botnet, in terms of the network addresses of the hosts that comprise the botnet.",
+    "command-and-control": "Specifies infrastructure used for command and control (C2). This is typically a domain name or IP address.",
+    "control-system": "Specifies equipment such as IoT, HMI, RTU, PLC or other ICS devices.",
+    "exfiltration": "Specifies infrastructure used as an endpoint for data exfiltration.",
+    "firewall": "Specifies a device that inspects network traffic and restricts it based upon defined policies.",
+    "hosting-malware": "Specifies infrastructure used for hosting malware.",
+    "hosting-target-lists": "Specifies infrastructure used for hosting a list of targets for DDOS attacks, phishing, and other malicious activities. This is typically a domain name or IP address.",
+    "phishing": "Specifies infrastructure used for conducting phishing attacks.",
+    "reconnaissance": "Specifies infrastructure used for conducting reconnaissance activities.",
+    "routers-switches": "Specifies IT infrastructure used to connect devices to the network.",
+    "staging": "Specifies infrastructure used for staging.",
+    "workstation": "Specifies an endpoint machine used for work by an organization that needs protection.",
+    "unknown": "Specifies an infrastructure of some unknown type."
+}

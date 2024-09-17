@@ -1,0 +1,10 @@
+{
+    "automated-tool": "An incident is detected by an automated tool. If this option is used it is generally useful to also include a separate entry for the tool itself.",
+    "commercial-solution": "A commercial tool or provider detected this incident. This can be combined with other methods including automated-tool to allow greater fidelity.",
+    "external-notification": "An external entity detected this incident and notified the impacted organization.",
+    "human-review": "An incident is detected by human threat hunting.",
+    "message-from-attacker": "Notification comes from a message provided by the attacker including email, a note left of a message or popup message.",
+    "propriety-solution": "An internally developed tool or process detected this incident. This can be combined with other methods including automated-tool to allow greater fidelity.",
+    "system-outage": "An incident is detected because a system is no longer available.",
+    "user-reporting": "One or more users report an incident."
+}

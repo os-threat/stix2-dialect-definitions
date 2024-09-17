@@ -1,0 +1,9 @@
+{
+    "SERVICE_CONTINUE_PENDING": "The service continue is pending.",
+    "SERVICE_PAUSE_PENDING": "The service pause is pending.",
+    "SERVICE_PAUSED": "The service is paused.",
+    "SERVICE_RUNNING": "The service is running.",
+    "SERVICE_START_PENDING": "The service is starting.",
+    "SERVICE_STOP_PENDING": "The service is stopping.",
+    "SERVICE_STOPPED": "The service is not running."
+}

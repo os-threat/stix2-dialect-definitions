@@ -1,0 +1,23 @@
+{
+    "applescript": "Specifies the AppleScript programming language.",
+    "bash": "Specifies the Bash programming language.",
+    "c": "Specifies the C programming language.",
+    "c++": "Specifies the C++ programming language.",
+    "c#": "Specifies the C# programming language.",
+    "go": "Specifies the Go (sometimes referred to as golang) programming language.",
+    "java": "Specifies the JAVA programming language.",
+    "javascript": "Specifies the JavaScript programming language.",
+    "lua": "Specifies the Lua programming language.",
+    "objective-c": "Specifies the Objective-C programming language.",
+    "perl": "Specifies the Perl programming language.",
+    "php": "Specifies the PHP programming language.",
+    "powershell": "Specifies the Windows Powershell programming language.",
+    "python": "Specifies the Python programming language.",
+    "ruby": "Specifies the Ruby programming language.",
+    "scala": "Specifies the Scala programming language.",
+    "swift": "Specifies the Swift programming language.",
+    "typescript": "Specifies the TypeScript programming language.",
+    "visual-basic": "Specifies the Visual Basic programming language.",
+    "x86-32": "Specifies the x86 32-bit Assembly programming language.",
+    "x86-64": "Specifies the x86 64-bit Assembly programming language."
+}

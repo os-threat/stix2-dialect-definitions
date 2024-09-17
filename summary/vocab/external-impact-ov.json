@@ -1,0 +1,9 @@
+{
+    "economic": "This incident is expected to have national or international economic impacts.",
+    "emergency-services": "This incident impacts emergency services.",
+    "foreign-relations": "This incident impacts international politics.",
+    "national-security": "This incident impacts the national security of one or more nations.",
+    "public-confidence": "This incident impacts the confidence in public or private institutions.",
+    "public-health": "This incident impacts the public health of one or more nations.",
+    "public-safety": "This incident impacts the public safety of individuals in one or more nations."
+}

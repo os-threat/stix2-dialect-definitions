@@ -1,0 +1,23 @@
+{
+    "building-doors": "Doors within buildings or structures.",
+    "building-windows": "The exterior or interior windows of buildings or structures.",
+    "buildings": "Entire buildings or structures.",
+    "computers-mobile": "Mobile devices such as smartphones.",
+    "computers-personal": "Workstations or laptops owned by an organization.",
+    "computers-server": "Servers owned by an organization.",
+    "environment": "Land, environment or the ability of either to support humans or wildlife.",
+    "ics-actuator": "Actuator for industrial control systems.",
+    "ics-engineering-workstation": "Engineering workstation for industrial control systems.",
+    "ics-historian": "Historian for industrial control systems.",
+    "ics-hmi": "Human machine interfaces for industrial control systems.",
+    "ics-other": "Other Industrial control systems.",
+    "ics-plc": "Programmable logic controller for industrial control systems.",
+    "ics-safety-system": "Safety system for industrial control systems.",
+    "ics-sensor": "Sensor for industrial control systems.",
+    "inventory": "Stocks of goods to be sold or consumed.",
+    "network-device": "Switches, routers, and wireless communication towers.",
+    "private-infrastructure": "Privately owned infrastructure such as roads, plumbing, railways, pipelines and electrical infrastructure.",
+    "public-infrastructure": "Publicly owned infrastructure such as roads, plumbing, railways, pipelines and electrical infrastructure.",
+    "security-containers": "Safes or other security containers.",
+    "vehicles": "Vehicles of various types including cars, trains, and planes."
+}

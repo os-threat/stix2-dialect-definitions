@@ -1,0 +1,8 @@
+{
+    "classified-phone": "A work email address that can be used to reach the individual on a classified network.",
+    "personal-fax": "A personal fax number",
+    "personal-phone": "A personal email address.",
+    "unclassified-phone": "A work email address that can be used to reach the individual on an unclassified network.",
+    "work-phone":  "A work email address that can be used to reach the individual when no distinction is required between classified or unclassified systems.",
+    "work-fax": "A work fax number"
+}

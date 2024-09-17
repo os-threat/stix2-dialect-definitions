@@ -1,0 +1,7 @@
+{
+    "SERVICE_AUTO_START": "A service started automatically by the service control manager during system startup.",
+    "SERVICE_BOOT_START": "A device driver started by the system loader. This value is valid only for driver services.",
+    "SERVICE_DEMAND_START": "A service started by the service control manager when a process calls the StartService function.",
+    "SERVICE_DISABLED": "A service that cannot be started. Attempts to start the service result in the error code ERROR_SERVICE_DISABLED.",
+    "SERVICE_SYSTEM_ALERT": "A device driver started by the IoInitSystem function. This value is valid only for driver services."
+}
