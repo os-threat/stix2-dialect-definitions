@@ -1,18 +1,1 @@
-[
-    {
-        "key": "optional",
-        "label": "The following event or task does not depend on the current one."
-    },
-    {
-        "key": "test",
-        "label": "The following event or task depends on the current one"
-    },
-    {
-        "key": "required",
-        "label": "The following event or task depends on the current one."
-    },
-    {
-        "key": "unknown",
-        "label": "It is unknown if the following event or task depends on the current on"
-    }
-]
+[{"key": "optional", "label": "The following event or task does not depend on the current one."}, {"key": "test", "label": "The following event or task depends on the current one"}, {"key": "required", "label": "The following event or task depends on the current one."}, {"key": "unknown", "label": "It is unknown if the following event or task depends on the current on"}]
