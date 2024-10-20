@@ -1,5 +1,14 @@
-{
-    "dll": "Specifies that the PE binary is a dynamically linked library (DLL).",
-    "exe": "Specifies that the PE binary is an executable image (i.e., not an OBJ or DLL).",
-    "sys": "Specifies that the PE binary is a device driver (SYS)."
-}
+[
+    {
+        "key": "dll",
+        "label": "Specifies that the PE binary is a dynamically linked library (DLL)."
+    },
+    {
+        "key": "exe",
+        "label": "Specifies that the PE binary is an executable image (i.e., not an OBJ or DLL)."
+    },
+    {
+        "key": "sys",
+        "label": "Specifies that the PE binary is a device driver (SYS)."
+    }
+]

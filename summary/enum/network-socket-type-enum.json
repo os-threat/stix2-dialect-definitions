@@ -1,7 +1,22 @@
-{
-    "SOCK_STREAM": "Specifies a pipe-like socket which operates over a connection with a particular remote socket and transmits data reliably as a stream of bytes.",
-    "SOCK_DGRAM": "Specifies a socket in which individually-addressed packets are sent (datagram).",
-    "SOCK_RAW": "Specifies raw sockets which allow new IP protocols to be implemented in user space. A raw socket receives or sends the raw datagram not including link level headers.",
-    "SOCK_RDM": "Specifies a socket indicating a reliably-delivered message.",
-    "SOCK_SEQPACKET": "Specifies a datagram congestion control protocol socket."
-}
+[
+    {
+        "key": "SOCK_STREAM",
+        "label": "Specifies a pipe-like socket which operates over a connection with a particular remote socket and transmits data reliably as a stream of bytes."
+    },
+    {
+        "key": "SOCK_DGRAM",
+        "label": "Specifies a socket in which individually-addressed packets are sent (datagram)."
+    },
+    {
+        "key": "SOCK_RAW",
+        "label": "Specifies raw sockets which allow new IP protocols to be implemented in user space. A raw socket receives or sends the raw datagram not including link level headers."
+    },
+    {
+        "key": "SOCK_RDM",
+        "label": "Specifies a socket indicating a reliably-delivered message."
+    },
+    {
+        "key": "SOCK_SEQPACKET",
+        "label": "Specifies a datagram congestion control protocol socket."
+    }
+]

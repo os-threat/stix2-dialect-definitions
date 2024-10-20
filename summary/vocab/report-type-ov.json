@@ -1,13 +1,46 @@
-{
-    "attack-pattern": "Report subject is a characterization of one or more attack patterns and related information.",
-    "campaign": "Report subject is a characterization of one or more campaigns and related information.",
-    "identity": "Report subject is a characterization of one or more identities and related information.",
-    "indicator": "Report subject is a characterization of one or more indicators and related information.",
-    "intrusion-set": "Report subject is a characterization of one or more intrusion sets and related information.",
-    "malware": "Report subject is a characterization of one or more malware instances and related information.",
-    "observed-data": "Report subject is a characterization of observed data and related information.",
-    "threat-actor": "Report subject is a characterization of one or more threat actors and related information.",
-    "threat-report": "Report subject is a broad characterization of a threat across multiple facets.",
-    "tool": "Report subject is a characterization of one or more tools and related information.",
-    "vulnerability": "Report subject is a characterization of one or more vulnerabilities and related information."
-}
+[
+    {
+        "key": "attack-pattern",
+        "label": "Report subject is a characterization of one or more attack patterns and related information."
+    },
+    {
+        "key": "campaign",
+        "label": "Report subject is a characterization of one or more campaigns and related information."
+    },
+    {
+        "key": "identity",
+        "label": "Report subject is a characterization of one or more identities and related information."
+    },
+    {
+        "key": "indicator",
+        "label": "Report subject is a characterization of one or more indicators and related information."
+    },
+    {
+        "key": "intrusion-set",
+        "label": "Report subject is a characterization of one or more intrusion sets and related information."
+    },
+    {
+        "key": "malware",
+        "label": "Report subject is a characterization of one or more malware instances and related information."
+    },
+    {
+        "key": "observed-data",
+        "label": "Report subject is a characterization of observed data and related information."
+    },
+    {
+        "key": "threat-actor",
+        "label": "Report subject is a characterization of one or more threat actors and related information."
+    },
+    {
+        "key": "threat-report",
+        "label": "Report subject is a broad characterization of a threat across multiple facets."
+    },
+    {
+        "key": "tool",
+        "label": "Report subject is a characterization of one or more tools and related information."
+    },
+    {
+        "key": "vulnerability",
+        "label": "Report subject is a characterization of one or more vulnerabilities and related information."
+    }
+]

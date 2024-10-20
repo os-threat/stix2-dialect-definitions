@@ -1,7 +1,10 @@
 {
     "individual": "A single person.",
     "group": "An informal collection of people, without formal governance, such as a distributed hacker group.",
-    "system": "A computer system, such as a SIEM",
+    "system": "A combination of an applicatio, environmentn and a platform, such as a SIEM, Microsoft Exchange etc.",
+    "application": "An application or service used to do something, with an SBOM",
+    "environment": "An operating system, or desired environment for the application to run in",
+    "platform": "The underlying compute platform being utilised",
     "organization": "A formal organization of people, with governance, such as a company or country.",
     "class": "A class of entities, such as all hospitals, all Europeans, or the Domain Administrators in a system.",
     "unknown": "It is unknown whether the classification is an individual, group, system, organization, or class."

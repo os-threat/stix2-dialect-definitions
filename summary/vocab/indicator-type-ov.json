@@ -1,9 +1,30 @@
-{
-    "anomalous-activity": "Unexpected, or unusual activity that may not necessarily be malicious or indicate compromise. This type of activity may include reconnaissance-like behavior such as port scans or version identification, network behavior anomalies, and asset and/or user behavioral anomalies.",
-    "anonymization": "Suspected anonymization tools or infrastructure (proxy, TOR, VPN, etc.).",
-    "benign":"Activity that is not suspicious or malicious in and of itself, but when combined with other activity may indicate suspicious or malicious behavior.",
-    "compromised": "Assets that are suspected to be compromised.",
-    "malicious-activity": "Patterns of suspected malicious objects and/or activity.",
-    "attribution": "Patterns of behavior that indicate attribution to a particular Threat Actor or Campaign.",
-    "unknown": "There is not enough information available to determine the type of indicator."
-}
+[
+    {
+        "key": "anomalous-activity",
+        "label": "Unexpected, or unusual activity that may not necessarily be malicious or indicate compromise. This type of activity may include reconnaissance-like behavior such as port scans or version identification, network behavior anomalies, and asset and/or user behavioral anomalies."
+    },
+    {
+        "key": "anonymization",
+        "label": "Suspected anonymization tools or infrastructure (proxy, TOR, VPN, etc.)."
+    },
+    {
+        "key": "benign",
+        "label": "Activity that is not suspicious or malicious in and of itself, but when combined with other activity may indicate suspicious or malicious behavior."
+    },
+    {
+        "key": "compromised",
+        "label": "Assets that are suspected to be compromised."
+    },
+    {
+        "key": "malicious-activity",
+        "label": "Patterns of suspected malicious objects and/or activity."
+    },
+    {
+        "key": "attribution",
+        "label": "Patterns of behavior that indicate attribution to a particular Threat Actor or Campaign."
+    },
+    {
+        "key": "unknown",
+        "label": "There is not enough information available to determine the type of indicator."
+    }
+]

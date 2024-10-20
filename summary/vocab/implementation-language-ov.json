@@ -1,23 +1,86 @@
-{
-    "applescript": "Specifies the AppleScript programming language.",
-    "bash": "Specifies the Bash programming language.",
-    "c": "Specifies the C programming language.",
-    "c++": "Specifies the C++ programming language.",
-    "c#": "Specifies the C# programming language.",
-    "go": "Specifies the Go (sometimes referred to as golang) programming language.",
-    "java": "Specifies the JAVA programming language.",
-    "javascript": "Specifies the JavaScript programming language.",
-    "lua": "Specifies the Lua programming language.",
-    "objective-c": "Specifies the Objective-C programming language.",
-    "perl": "Specifies the Perl programming language.",
-    "php": "Specifies the PHP programming language.",
-    "powershell": "Specifies the Windows Powershell programming language.",
-    "python": "Specifies the Python programming language.",
-    "ruby": "Specifies the Ruby programming language.",
-    "scala": "Specifies the Scala programming language.",
-    "swift": "Specifies the Swift programming language.",
-    "typescript": "Specifies the TypeScript programming language.",
-    "visual-basic": "Specifies the Visual Basic programming language.",
-    "x86-32": "Specifies the x86 32-bit Assembly programming language.",
-    "x86-64": "Specifies the x86 64-bit Assembly programming language."
-}
+[
+    {
+        "key": "applescript",
+        "label": "Specifies the AppleScript programming language."
+    },
+    {
+        "key": "bash",
+        "label": "Specifies the Bash programming language."
+    },
+    {
+        "key": "c",
+        "label": "Specifies the C programming language."
+    },
+    {
+        "key": "c++",
+        "label": "Specifies the C++ programming language."
+    },
+    {
+        "key": "c#",
+        "label": "Specifies the C# programming language."
+    },
+    {
+        "key": "go",
+        "label": "Specifies the Go (sometimes referred to as golang) programming language."
+    },
+    {
+        "key": "java",
+        "label": "Specifies the JAVA programming language."
+    },
+    {
+        "key": "javascript",
+        "label": "Specifies the JavaScript programming language."
+    },
+    {
+        "key": "lua",
+        "label": "Specifies the Lua programming language."
+    },
+    {
+        "key": "objective-c",
+        "label": "Specifies the Objective-C programming language."
+    },
+    {
+        "key": "perl",
+        "label": "Specifies the Perl programming language."
+    },
+    {
+        "key": "php",
+        "label": "Specifies the PHP programming language."
+    },
+    {
+        "key": "powershell",
+        "label": "Specifies the Windows Powershell programming language."
+    },
+    {
+        "key": "python",
+        "label": "Specifies the Python programming language."
+    },
+    {
+        "key": "ruby",
+        "label": "Specifies the Ruby programming language."
+    },
+    {
+        "key": "scala",
+        "label": "Specifies the Scala programming language."
+    },
+    {
+        "key": "swift",
+        "label": "Specifies the Swift programming language."
+    },
+    {
+        "key": "typescript",
+        "label": "Specifies the TypeScript programming language."
+    },
+    {
+        "key": "visual-basic",
+        "label": "Specifies the Visual Basic programming language."
+    },
+    {
+        "key": "x86-32",
+        "label": "Specifies the x86 32-bit Assembly programming language."
+    },
+    {
+        "key": "x86-64",
+        "label": "Specifies the x86 64-bit Assembly programming language."
+    }
+]

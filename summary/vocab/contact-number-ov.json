@@ -1,8 +1,26 @@
-{
-    "classified-phone": "A work email address that can be used to reach the individual on a classified network.",
-    "personal-fax": "A personal fax number",
-    "personal-phone": "A personal email address.",
-    "unclassified-phone": "A work email address that can be used to reach the individual on an unclassified network.",
-    "work-phone":  "A work email address that can be used to reach the individual when no distinction is required between classified or unclassified systems.",
-    "work-fax": "A work fax number"
-}
+[
+    {
+        "key": "classified-phone",
+        "label": "A work email address that can be used to reach the individual on a classified network."
+    },
+    {
+        "key": "personal-fax",
+        "label": "A personal fax number"
+    },
+    {
+        "key": "personal-phone",
+        "label": "A personal email address."
+    },
+    {
+        "key": "unclassified-phone",
+        "label": "A work email address that can be used to reach the individual on an unclassified network."
+    },
+    {
+        "key": "work-phone",
+        "label": "A work email address that can be used to reach the individual when no distinction is required between classified or unclassified systems."
+    },
+    {
+        "key": "work-fax",
+        "label": "A work fax number"
+    }
+]

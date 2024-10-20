@@ -1,6 +1,18 @@
-{
-    "SERVICE_KERNEL_DRIVER": "The service is a device driver.",
-    "SERVICE_FILE_SYSTEM_DRIVER": "The service is a file system driver.",
-    "SERVICE_WIN32_OWN_PROCESS": "The service runs in its own process.",
-    "SERVICE_WIN32_SHARE_PROCESS": "The service shares a process with other services."
-}
+[
+    {
+        "key": "SERVICE_KERNEL_DRIVER",
+        "label": "The service is a device driver."
+    },
+    {
+        "key": "SERVICE_FILE_SYSTEM_DRIVER",
+        "label": "The service is a file system driver."
+    },
+    {
+        "key": "SERVICE_WIN32_OWN_PROCESS",
+        "label": "The service runs in its own process."
+    },
+    {
+        "key": "SERVICE_WIN32_SHARE_PROCESS",
+        "label": "The service shares a process with other services."
+    }
+]

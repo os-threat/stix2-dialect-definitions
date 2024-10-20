@@ -1,13 +1,46 @@
-{
-    "facebook": "Specifies a Facebook account.",
-    "ldap": "Specifies an LDAP account.",
-    "nis": "Specifies a NIS account",
-    "openid": "Specifies an OpenID account.",
-    "radius": "Specifies a RADIUS account.",
-    "skype": "Specifies a Skype account.",
-    "tacacs": "Specifies a TACACS account.",
-    "twitter": "Specifies a Twitter account.",
-    "unix": "Specifies a POSIX account.",
-    "windows-local": "Specifies a Windows local account.",
-    "windows-domain": "Specifies a Windows domain account."
-}
+[
+    {
+        "key": "facebook",
+        "label": "Specifies a Facebook account."
+    },
+    {
+        "key": "ldap",
+        "label": "Specifies an LDAP account."
+    },
+    {
+        "key": "nis",
+        "label": "Specifies a NIS account"
+    },
+    {
+        "key": "openid",
+        "label": "Specifies an OpenID account."
+    },
+    {
+        "key": "radius",
+        "label": "Specifies a RADIUS account."
+    },
+    {
+        "key": "skype",
+        "label": "Specifies a Skype account."
+    },
+    {
+        "key": "tacacs",
+        "label": "Specifies a TACACS account."
+    },
+    {
+        "key": "twitter",
+        "label": "Specifies a Twitter account."
+    },
+    {
+        "key": "unix",
+        "label": "Specifies a POSIX account."
+    },
+    {
+        "key": "windows-local",
+        "label": "Specifies a Windows local account."
+    },
+    {
+        "key": "windows-domain",
+        "label": "Specifies a Windows domain account."
+    }
+]

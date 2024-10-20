@@ -1,36 +1,138 @@
-{
-    "agriculture" : "",
-    "aerospace" : "",
-    "automotive" : "",
-    "chemical" : "",
-    "commercial" : "",
-    "communications" : "",
-    "construction" : "",
-    "defense" : "",
-    "education" : "",
-    "energy" : "",
-    "entertainment" : "",
-    "financial-services" : "",
-    "government" : "",
-    "emergency-services" : "",
-    "government-local" : "",
-    "government-national" : "",
-    "government-public-services" : "",
-    "government-regional" : "",
-    "healthcare" : "",
-    "hospitality-leisure" : "",
-    "infrastructure" : "",
-    "dams" : "",
-    "nuclear" : "",
-    "water" : "",
-    "insurance" : "",
-    "manufacturing" : "",
-    "mining" : "",
-    "non-profit" : "",
-    "pharmaceuticals" : "",
-    "retail" : "",
-    "technology" : "",
-    "telecommunications" : "",
-    "transportation" : "",
-    "utilities" : ""
-}
+[
+    {
+        "key": "agriculture",
+        "label": ""
+    },
+    {
+        "key": "aerospace",
+        "label": ""
+    },
+    {
+        "key": "automotive",
+        "label": ""
+    },
+    {
+        "key": "chemical",
+        "label": ""
+    },
+    {
+        "key": "commercial",
+        "label": ""
+    },
+    {
+        "key": "communications",
+        "label": ""
+    },
+    {
+        "key": "construction",
+        "label": ""
+    },
+    {
+        "key": "defense",
+        "label": ""
+    },
+    {
+        "key": "education",
+        "label": ""
+    },
+    {
+        "key": "energy",
+        "label": ""
+    },
+    {
+        "key": "entertainment",
+        "label": ""
+    },
+    {
+        "key": "financial-services",
+        "label": ""
+    },
+    {
+        "key": "government",
+        "label": ""
+    },
+    {
+        "key": "emergency-services",
+        "label": ""
+    },
+    {
+        "key": "government-local",
+        "label": ""
+    },
+    {
+        "key": "government-national",
+        "label": ""
+    },
+    {
+        "key": "government-public-services",
+        "label": ""
+    },
+    {
+        "key": "government-regional",
+        "label": ""
+    },
+    {
+        "key": "healthcare",
+        "label": ""
+    },
+    {
+        "key": "hospitality-leisure",
+        "label": ""
+    },
+    {
+        "key": "infrastructure",
+        "label": ""
+    },
+    {
+        "key": "dams",
+        "label": ""
+    },
+    {
+        "key": "nuclear",
+        "label": ""
+    },
+    {
+        "key": "water",
+        "label": ""
+    },
+    {
+        "key": "insurance",
+        "label": ""
+    },
+    {
+        "key": "manufacturing",
+        "label": ""
+    },
+    {
+        "key": "mining",
+        "label": ""
+    },
+    {
+        "key": "non-profit",
+        "label": ""
+    },
+    {
+        "key": "pharmaceuticals",
+        "label": ""
+    },
+    {
+        "key": "retail",
+        "label": ""
+    },
+    {
+        "key": "technology",
+        "label": ""
+    },
+    {
+        "key": "telecommunications",
+        "label": ""
+    },
+    {
+        "key": "transportation",
+        "label": ""
+    },
+    {
+        "key": "utilities",
+        "label": ""
+    }
+]

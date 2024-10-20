@@ -1,13 +1,46 @@
-{
-    "classified-material": "Data classified based on relevant government authorities.",
-    "communication": "Communication records including emails, chats and instant messages.",
-    "credentials-admin": "Administrative credential data.",
-    "credentials-user": "User credential data.",
-    "financial": "Financial records including purchasing activity and planned activities.",
-    "legal": "Legal records that are not yet public including contracts under negotiation and documents protected under legal privilege.",
-    "payment": "Payment information.",
-    "phi": "Protected Health Information.",
-    "pii": "Personally Identifiable Information.",
-    "proprietary": "Proprietary information e.g., intellectual property.",
-    "system": "Information necessary to keep a system operational. The destruction or encryption of this data can cause availability impacts."
-}
+[
+    {
+        "key": "classified-material",
+        "label": "Data classified based on relevant government authorities."
+    },
+    {
+        "key": "communication",
+        "label": "Communication records including emails, chats and instant messages."
+    },
+    {
+        "key": "credentials-admin",
+        "label": "Administrative credential data."
+    },
+    {
+        "key": "credentials-user",
+        "label": "User credential data."
+    },
+    {
+        "key": "financial",
+        "label": "Financial records including purchasing activity and planned activities."
+    },
+    {
+        "key": "legal",
+        "label": "Legal records that are not yet public including contracts under negotiation and documents protected under legal privilege."
+    },
+    {
+        "key": "payment",
+        "label": "Payment information."
+    },
+    {
+        "key": "phi",
+        "label": "Protected Health Information."
+    },
+    {
+        "key": "pii",
+        "label": "Personally Identifiable Information."
+    },
+    {
+        "key": "proprietary",
+        "label": "Proprietary information e.g., intellectual property."
+    },
+    {
+        "key": "system",
+        "label": "Information necessary to keep a system operational. The destruction or encryption of this data can cause availability impacts."
+    }
+]

@@ -1,5 +1,14 @@
-{
-    "accountability-lost": "Traces used to retrieve accountability are lost or do not exist.",
-    "partial-accountability": "Traces are present, but insufficient to have provable accountability.",
-    "provable-accountability": "Accountability can be ensured from the traces that are present"
-}
+[
+    {
+        "key": "accountability-lost",
+        "label": "Traces used to retrieve accountability are lost or do not exist."
+    },
+    {
+        "key": "partial-accountability",
+        "label": "Traces are present, but insufficient to have provable accountability."
+    },
+    {
+        "key": "provable-accountability",
+        "label": "Accountability can be ensured from the traces that are present"
+    }
+]

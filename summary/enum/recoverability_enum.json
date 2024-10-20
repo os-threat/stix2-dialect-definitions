@@ -1,7 +1,22 @@
-{
-    "extended": "Time to recovery is unpredictable; additional resources and outside help are necessary.",
-    "not-applicable": "No recovery is necessary.",
-    "not-recoverable": "Recovery from the incident is not possible.",
-    "regular": "Time to recovery is predictable with existing resources.",
-    "supplemented": "Time to recovery is predictable with additional resources."
-}
+[
+    {
+        "key": "extended",
+        "label": "Time to recovery is unpredictable; additional resources and outside help are necessary."
+    },
+    {
+        "key": "not-applicable",
+        "label": "No recovery is necessary."
+    },
+    {
+        "key": "not-recoverable",
+        "label": "Recovery from the incident is not possible."
+    },
+    {
+        "key": "regular",
+        "label": "Time to recovery is predictable with existing resources."
+    },
+    {
+        "key": "supplemented",
+        "label": "Time to recovery is predictable with additional resources."
+    }
+]

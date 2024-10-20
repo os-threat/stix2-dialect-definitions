@@ -1,8 +1,38 @@
-{
-    "individual": "A single person.",
-    "group": "An informal collection of people, without formal governance, such as a distributed hacker group.",
-    "system": "A computer system, such as a SIEM",
-    "organization": "A formal organization of people, with governance, such as a company or country.",
-    "class": "A class of entities, such as all hospitals, all Europeans, or the Domain Administrators in a system.",
-    "unknown": "It is unknown whether the classification is an individual, group, system, organization, or class."
-}
+[
+    {
+        "key": "individual",
+        "label": "A single person."
+    },
+    {
+        "key": "group",
+        "label": "An informal collection of people, without formal governance, such as a distributed hacker group."
+    },
+    {
+        "key": "system",
+        "label": "A combination of an applicatio, environmentn and a platform, such as a SIEM, Microsoft Exchange etc."
+    },
+    {
+        "key": "application",
+        "label": "An application or service used to do something, with an SBOM"
+    },
+    {
+        "key": "environment",
+        "label": "An operating system, or desired environment for the application to run in"
+    },
+    {
+        "key": "platform",
+        "label": "The underlying compute platform being utilised"
+    },
+    {
+        "key": "organization",
+        "label": "A formal organization of people, with governance, such as a company or country."
+    },
+    {
+        "key": "class",
+        "label": "A class of entities, such as all hospitals, all Europeans, or the Domain Administrators in a system."
+    },
+    {
+        "key": "unknown",
+        "label": "It is unknown whether the classification is an individual, group, system, organization, or class."
+    }
+]
