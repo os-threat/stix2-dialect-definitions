@@ -1,1 +1,1 @@
-[{"key": "completion", "label": "The following task executed when this one completed regardless of success or failure."}, {"key": "failure", "label": "The following task executed when this one failed."}, {"key": "success", "label": "The following task executed upon success."}, {"key": "unknown", "label": "It is unknown what conditions cause the following task to execute only that it followed the current on"}]
+[{"key": "completion", "label": "completion"}, {"key": "failure", "label": "failure"}, {"key": "success", "label": "success"}, {"key": "unknown", "label": "unknown"}]
