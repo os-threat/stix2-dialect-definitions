@@ -1,5 +1,1 @@
-{
-    "suspicious-activity" : "A set of STIX content related to a particular suspicious activity event.",
-    "malware-analysis": "A set of STIX content related to a particular malware instance or family.",
-    "unspecified": "A set of STIX content contextually related but without any precise characterization of the contextual relationship between the objects."
-}
+[{"key": "suspicious-activity", "label": "suspicious-activity"}, {"key": "malware-analysis", "label": "malware-analysis"}, {"key": "unspecified", "label": "unspecified"}]

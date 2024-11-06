@@ -1,8 +1,1 @@
-{
-    "caused": "This task or event is the primary cause of the resulting object.",
-    "contributed-to": "This task or event is a contributing factor to the result occurring.",
-    "input": "This task or event took in a group as an input for automated or playbook activities. If this is selected initial_ref MUST be populated.",
-    "mitigated": "This task or event lessened the severity of the initial object.",
-    "output": "This task or event produced a group as an output as part of automated or playbook activities.If this is selected result_ref MUST be populated.",
-    "resolved": "This task or event resolved the initial object."
-}
+[{"key": "caused", "label": "caused"}, {"key": "contributed-to", "label": "contributed-to"}, {"key": "input", "label": "input"}, {"key": "mitigated", "label": "mitigated"}, {"key": "output", "label": "output"}, {"key": "resolved", "label": "resolved"}]

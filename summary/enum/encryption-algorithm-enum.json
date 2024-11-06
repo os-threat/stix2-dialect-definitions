@@ -1,5 +1,1 @@
-{
-    "AES-256-GCM": "Specifies the AES-256-GCM cipher, as defined in [NIST SP800-38D]",
-    "ChaCha20-Poly1305": "Specifies the ChaCha20-Poly1305 stream cipher, as defined in [RFC7539].",
-    "mime-type-indicated": "The encryption algorithm is self-defined by the artifact's data. The specified mime-type tells you which format it is, e.g., Word Doc or GPG. This is intended for formats like Zip files and Word files which take a simple password, or GPG armored files that contain the key blob along with the file."
-}
+[{"key": "AES-256-GCM", "label": "AES-256-GCM"}, {"key": "ChaCha20-Poly1305", "label": "ChaCha20-Poly1305"}, {"key": "mime-type-indicated", "label": "mime-type-indicated"}]

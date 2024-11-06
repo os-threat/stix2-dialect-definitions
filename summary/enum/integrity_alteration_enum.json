@@ -1,9 +1,1 @@
-{
-    "potential-destruction": "Information may have been destroyed within the system.",
-    "potential-modification": "Information may have been modified within the system.",
-    "partial-destruction": "Some data of this type has been destroyed, but sufficient data remains to allow partial functionality.",
-    "partial-modification": "Some data in the system has been modified, but the remaining data is of an acceptable level of integrity for operations to continue.",
-    "full-destruction": "Sufficient data of this type was destroyed to render the system inoperable until recovery can be completed.",
-    "full-modification": "Sufficient data of this type was modified to render the system inoperable until recovery can be completed.",
-    "none": "There is no evidence of destruction or modification of this data type in the system."
-}
+[{"key": "potential-destruction", "label": "potential-destruction"}, {"key": "potential-modification", "label": "potential-modification"}, {"key": "partial-destruction", "label": "partial-destruction"}, {"key": "partial-modification", "label": "partial-modification"}, {"key": "full-destruction", "label": "full-destruction"}, {"key": "full-modification", "label": "full-modification"}, {"key": "none", "label": "none"}]

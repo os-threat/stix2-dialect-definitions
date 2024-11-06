@@ -1,12 +1,1 @@
-{
-    "asset-and-fraud": "Losses incurred due to loss of assets or fraud.",
-    "brand-damage": "Losses incurred due to reputational or brand damage.",
-    "business-disruption": "Losses incurred due to business disruptions.",
-    "competitive-advantage": "Losses incurred due to theft of intellectual property, techniques or other capabilities that grant an advantage in the field.",
-    "legal-and-regulatory": "Losses incurred due to legal or regulatory actions in response to the incident.",
-    "operating-costs": "Losses incurred due to additional operating costs that have been incurred due to the incident.",
-    "ransom-demand": "The demanded amount of ransom to be paid. When this is selected the demand amount should be listed as the max_amount and the min_amount should be 0.",
-    "ransom-payment": "An actual payment of a ransom.",
-    "response-and-recovery": "Losses incurred due to response and recovery efforts for the incident.",
-    "uncategorized": "Losses incurred that have not been categorized yet."
-}
+[{"key": "asset-and-fraud", "label": "asset-and-fraud"}, {"key": "brand-damage", "label": "brand-damage"}, {"key": "business-disruption", "label": "business-disruption"}, {"key": "competitive-advantage", "label": "competitive-advantage"}, {"key": "legal-and-regulatory", "label": "legal-and-regulatory"}, {"key": "operating-costs", "label": "operating-costs"}, {"key": "ransom-demand", "label": "ransom-demand"}, {"key": "ransom-payment", "label": "ransom-payment"}, {"key": "response-and-recovery", "label": "response-and-recovery"}, {"key": "uncategorized", "label": "uncategorized"}]

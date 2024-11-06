@@ -1,8 +1,1 @@
-{
-    "classified-phone": "A work email address that can be used to reach the individual on a classified network.",
-    "personal-fax": "A personal fax number",
-    "personal-phone": "A personal email address.",
-    "unclassified-phone": "A work email address that can be used to reach the individual on an unclassified network.",
-    "work-phone":  "A work email address that can be used to reach the individual when no distinction is required between classified or unclassified systems.",
-    "work-fax": "A work fax number"
-}
+[{"key": "classified-phone", "label": "classified-phone"}, {"key": "personal-fax", "label": "personal-fax"}, {"key": "personal-phone", "label": "personal-phone"}, {"key": "unclassified-phone", "label": "unclassified-phone"}, {"key": "work-phone", "label": "work-phone"}, {"key": "work-fax", "label": "work-fax"}]

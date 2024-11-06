@@ -1,7 +1,1 @@
-{
-    "confirmed-loss": "Information has been exfiltrated and is now available to the attacker, but it is unknown if it has been misused.",
-    "contained": "Information’s confidentiality was compromised, but the spill was within an environment that allowed it to be effectively contained.For example: a sensitive data spill occurred within a controlled network allowing it to be resolved before information exited the organization.",
-    "exploited-loss": "Information has been exfiltrated and has been actively misused by the attacker.",
-    "none": "This information type was not compromised based on the investigation that was performed. This option should be used to affirmatively supply this information when necessary.",
-    "suspected-loss": "It is suspected but not confirmed that the attacker may have gained access to this information."
-}
+[{"key": "confirmed-loss", "label": "confirmed-loss"}, {"key": "contained", "label": "contained"}, {"key": "exploited-loss", "label": "exploited-loss"}, {"key": "none", "label": "none"}, {"key": "suspected-loss", "label": "suspected-loss"}]

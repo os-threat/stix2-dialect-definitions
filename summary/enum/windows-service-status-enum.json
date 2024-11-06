@@ -1,9 +1,1 @@
-{
-    "SERVICE_CONTINUE_PENDING": "The service continue is pending.",
-    "SERVICE_PAUSE_PENDING": "The service pause is pending.",
-    "SERVICE_PAUSED": "The service is paused.",
-    "SERVICE_RUNNING": "The service is running.",
-    "SERVICE_START_PENDING": "The service is starting.",
-    "SERVICE_STOP_PENDING": "The service is stopping.",
-    "SERVICE_STOPPED": "The service is not running."
-}
+[{"key": "SERVICE_CONTINUE_PENDING", "label": "SERVICE_CONTINUE_PENDING"}, {"key": "SERVICE_PAUSE_PENDING", "label": "SERVICE_PAUSE_PENDING"}, {"key": "SERVICE_PAUSED", "label": "SERVICE_PAUSED"}, {"key": "SERVICE_RUNNING", "label": "SERVICE_RUNNING"}, {"key": "SERVICE_START_PENDING", "label": "SERVICE_START_PENDING"}, {"key": "SERVICE_STOP_PENDING", "label": "SERVICE_STOP_PENDING"}, {"key": "SERVICE_STOPPED", "label": "SERVICE_STOPPED"}]

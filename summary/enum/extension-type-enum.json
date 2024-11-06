@@ -1,7 +1,1 @@
-{
-    "new-sdo": "Specifies that the Extension includes a new SDO",
-    "new-sco": "Specifies that the Extension includes a new SCO",
-    "new-sro": "Specifies that the Extension includes a new SRO",
-    "property-extension": "Specifies that the Extension includes additional properties for a given STIX Object.",
-    "toplevel-property-extension": "Specifies that the Extension includes additional properties for a given STIX Object at the top-level. Organizations are encouraged to use the property-extension instead of this extension type."
-}
+[{"key": "new-sdo", "label": "new-sdo"}, {"key": "new-sco", "label": "new-sco"}, {"key": "new-sro", "label": "new-sro"}, {"key": "property-extension", "label": "property-extension"}, {"key": "toplevel-property-extension", "label": "toplevel-property-extension"}]

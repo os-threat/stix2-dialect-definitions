@@ -1,6 +1,1 @@
-{
-    "low": "A low level of integrity.",
-    "medium": "A medium level of integrity.",
-    "high": "A high level of integrity.",
-    "system": "A system level of integrity."
-}
+[{"key": "low", "label": "low"}, {"key": "medium", "label": "medium"}, {"key": "high", "label": "high"}, {"key": "system", "label": "system"}]

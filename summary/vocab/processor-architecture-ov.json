@@ -1,10 +1,1 @@
-{
-    "alpha": "Specifies the Alpha architecture.",
-    "arm": "Specifies the ARM architecture.",
-    "ia-64": "Specifies the 64-bit IA (Itanium) architecture.",
-    "mips": "Specifies the MIPS architecture.",
-    "powerpc": "Specifies the PowerPC architecture.",
-    "sparc": "Specifies the SPARC architecture.",
-    "x86": "Specifies the 32-bit x86 architecture.",
-    "x86-64": "Specifies the 64-bit x86 architecture."
-}
+[{"key": "alpha", "label": "alpha"}, {"key": "arm", "label": "arm"}, {"key": "ia-64", "label": "ia-64"}, {"key": "mips", "label": "mips"}, {"key": "powerpc", "label": "powerpc"}, {"key": "sparc", "label": "sparc"}, {"key": "x86", "label": "x86"}, {"key": "x86-64", "label": "x86-64"}]

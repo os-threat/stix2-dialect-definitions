@@ -1,7 +1,1 @@
-{
-    "damaged-functional": "The property, asset or system was damaged but still remains functional and repair may be possible.",
-    "damaged-nonfunctional": "The property, asset or system was damaged and does not remain functional, but repair may be possible.",
-    "destruction": "The property, asset or system was destroyed, cannot be repaired and no longer functions. In some cases destroyed assets can be rebuilt, but doing so involves a similar amount of effort as the original construction.",
-    "none": "No damage or destruction has occurred.",
-    "unknown": "The degree of damage has not been determined yet."
-}
+[{"key": "damaged-functional", "label": "damaged-functional"}, {"key": "damaged-nonfunctional", "label": "damaged-nonfunctional"}, {"key": "destruction", "label": "destruction"}, {"key": "none", "label": "none"}, {"key": "unknown", "label": "unknown"}]

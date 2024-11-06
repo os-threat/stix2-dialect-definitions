@@ -1,8 +1,1 @@
-{
-    "cancelled": "The task was planned or started, but later cancelled or discarded.",
-    "failed": "The task has been completed, but failed.",
-    "ongoing": "The task is still taking place.",
-    "pending": "The task has not yet been started, but is currently planned.",
-    "successful": "The task was completed successfully.",
-    "unknown": "The status of this task is currently unknown."
-}
+[{"key": "cancelled", "label": "cancelled"}, {"key": "failed", "label": "failed"}, {"key": "ongoing", "label": "ongoing"}, {"key": "pending", "label": "pending"}, {"key": "successful", "label": "successful"}, {"key": "unknown", "label": "unknown"}]

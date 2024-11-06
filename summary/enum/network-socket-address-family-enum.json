@@ -1,10 +1,1 @@
-{
-    "AF_UNSPEC": "Specifies an unspecified address family.",
-    "AF_INET": "Specifies the IPv4 address family.",
-    "AF_IPX": "Specifies the IPX (Novell Internet Protocol) address family.",
-    "AF_APPLETALK": "Specifies the APPLETALK DDP address family.",
-    "AF_NETBIOS": "Specifies the NETBIOS address family.",
-    "AF_INET6": "Specifies the IPv6 address family.",
-    "AF_IRDA": "Specifies IRDA sockets.",
-    "AF_BTH": "Specifies BTH sockets."
-}
+[{"key": "AF_UNSPEC", "label": "AF_UNSPEC"}, {"key": "AF_INET", "label": "AF_INET"}, {"key": "AF_IPX", "label": "AF_IPX"}, {"key": "AF_APPLETALK", "label": "AF_APPLETALK"}, {"key": "AF_NETBIOS", "label": "AF_NETBIOS"}, {"key": "AF_INET6", "label": "AF_INET6"}, {"key": "AF_IRDA", "label": "AF_IRDA"}, {"key": "AF_BTH", "label": "AF_BTH"}]
