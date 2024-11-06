@@ -1,0 +1,10 @@
+{
+    "docker":	"Specifies a docker container",
+    "crio":	"Specifies a crio container",
+    "mesos":	"Specifies a mesos container",
+    "lxc":	"Specifies a LXC container",
+    "libvirt_lxc":	"Specifies a libvirt LXC container",
+    "rkt":	"Specifies a rkt container",
+    "oci":	"Specifies a oci standards based container",
+    "custom":	"Specifies a custom container"
+}

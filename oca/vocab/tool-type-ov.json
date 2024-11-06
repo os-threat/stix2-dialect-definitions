@@ -1,0 +1,13 @@
+{
+    "hypervisors-virtualization": "Tools used to virtualize execution of commands or operating systems with direct access and control to underlying hardware, such as VDI or containers.",
+    "identity-access-management": "Tools used to store secrets that can be stolen or abused, such as corporate directories, PKI etc.",
+    "security-monitoring": "Tools used to provide the defender the ability to monitor for malicious behaviors, such as SIEM or SOAR tools.",
+    "backup-storage": "Tools used to create copies and transfer data stored on endpoints or other devices, such as NAS, recovery managers, remote or local storage.",
+    "endpoint-management": "Tools used for remote endpoint administration, update and configuration such as patches management or asset inventory.",
+    "endpoint-security": "Tools used to protect the endpoints, contribute to the secure operation of the endpoint or collect information such as antimalware or EDR.",
+    "network-management": "Tools used to manage systems or networks which can provide an adversary visibility into the management control plane, such as DNS, network configuration or traffic monitoring systems.",
+    "network-security": "Tools used to prevent malicious network traffic from entering or leaving a segment or boundary, such as NAC, firewall or NIPS.",
+    "office-productivity": "Tools used to collaborate, communicate or share unstructured data such as email, file sharing and meeting platforms.",
+    "crisis-management": "Tools used to allow defenders to communicate during an incident (in-band or out-of-band) and can provide adversary with visibility of defensive tactics and crisis recovery plans.",
+    "business-data-repository": "Tools used to enable the business to deliver the organization's mission and/or store highly valuable or large amount of data, such as ERP, critical business applications or databases."
+}

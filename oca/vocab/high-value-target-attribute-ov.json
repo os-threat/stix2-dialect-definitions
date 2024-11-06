@@ -1,0 +1,12 @@
+{
+    "tamper-prone": "The adversary leverages functionality or configuration that is prone to be weaponized in support of further malicious actions.",
+  "internal-prospecting": "The adversary leverages functionality to manage distributed systems or networks which provides visibility into the management control plane.",
+  "stores-secrets":       "The adversary leverages access to stored secrets that can be stolen or abused. ",
+  "stealthiness":          "The adversary leverages functionality that provides the ability to bypass detection mechanisms and protection safeguards. ",
+  "external-exposure": "The adversary leverages external network exposure to pivot from untrusted to trusted networks.",
+  "infiltrate-comms":  "The adversary leverages functionality that enables defenders to communicate (in-band or out-of-band) and gains visibility into defensive tactics.",
+  "blindside-defense": "The adversary leverages functionality that directly targets and impairs the defender's investigative and detective capabilities. ",
+  "inhibit-restoration": "The adversary leverages functionality that can permanently damage backup and restore capabilities. ",
+  "stores-data": "The adversary leverages functionality that allows access to highly valuable or large amount of data.  ",
+  "widespread-presence": "The adversary leverages widely implemented and inherently trusted tools to maximize their presence and impact."
+}
