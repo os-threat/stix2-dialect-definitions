@@ -244,5 +244,59 @@
         "field": "process_ref",
         "target_type": "process",
         "description": "references a process related to this event. must be of type process"
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "parent_process_ref",
+        "target_type": "process",
+        "description": "references a parent process related to this event. must be of type process"
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "cross_process_target_ref",
+        "target_type": "process",
+        "description": "references the target process in case of a cross process event. must be of type process"
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "domain_ref",
+        "target_type": "domain-name",
+        "description": "references a domain related to this event. must be of type domain-name"
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "registry_ref",
+        "target_type": "windows-registry-key",
+        "description": "references windows registry data related to this event. must be of type windows-registry-key"
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "network_ref",
+        "target_type": "network-traffic",
+        "description": "references network traffic related to this event. must be of type network-traffic"
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "ip_refs",
+        "target_type": "ipv4-addr, ipv6-addr",
+        "description": "references any ip addresses related to this event. must be of type ipv4-address or ipv6-address"
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "user_ref",
+        "target_type": "user-account",
+        "description": "references the user related to this event. must be of type user-account"
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "x_ttp_tagging_refs",
+        "target_type": "x-ibm-ttp-tagging",
+        "description": "References any TTP (techniues tactics and procedures) related to this event. must be of type x-ibm-ttp-tagging"
+    },
+    {
+        "source_type": "x-oca-geo",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
     }
 ]
