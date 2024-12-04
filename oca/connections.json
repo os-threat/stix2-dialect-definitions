@@ -1,0 +1,248 @@
+[
+    {
+        "source_type": "x-oca-behavior",
+        "field": "created_by_ref",
+        "target_type": "identity",
+        "description": "The created_by_ref property specifies the id property of the identity object that describes the entity that created this object."
+    },
+    {
+        "source_type": "x-oca-behavior",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "extension-definition",
+        "field": "created_by_ref",
+        "target_type": "identity",
+        "description": "The created_by_ref property specifies the id property of the identity object that describes the entity that created this object."
+    },
+    {
+        "source_type": "extension-definition",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "x-oca-detection",
+        "field": "created_by_ref",
+        "target_type": "identity",
+        "description": "The created_by_ref property specifies the id property of the identity object that describes the entity that created this object."
+    },
+    {
+        "source_type": "x-oca-detection",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "x-oca-detector",
+        "field": "created_by_ref",
+        "target_type": "identity",
+        "description": "The created_by_ref property specifies the id property of the identity object that describes the entity that created this object."
+    },
+    {
+        "source_type": "x-oca-detector",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "x-oca-playbook",
+        "field": "created_by_ref",
+        "target_type": "identity",
+        "description": "The created_by_ref property specifies the id property of the identity object that describes the entity that created this object."
+    },
+    {
+        "source_type": "x-oca-playbook",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "file",
+        "field": "x_owner_ref",
+        "target_type": "user-account",
+        "description": "Specifies the ownership attributes of a file as a reference to a User Account Object. The object referenced in this property MUST be of type user-account."
+    },
+    {
+        "source_type": "file",
+        "field": "x_software_ref",
+        "target_type": "software",
+        "description": "Specifies the the high level properties of a portable executable file. The object referenced in this property MUST be of type software."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "src_ip_ref",
+        "target_type": "ipv4-addr, ipv6-addr",
+        "description": "Specifies the source ip address of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type ipv4-addr or ipv6-addr."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "dst_ip_ref",
+        "target_type": "ipv4-addr, ipv6-addr",
+        "description": "Specifies the destination ip address of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type ipv4-addr or ipv6-addr."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "src_os_ref",
+        "target_type": "software",
+        "description": "Specifies the source operating system of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type software"
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "dst_os_ref",
+        "target_type": "software",
+        "description": "Specifies the destination operating system of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type software."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "src_application_ref",
+        "target_type": "software",
+        "description": "Specifies the source application of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type software."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "dst_application_ref",
+        "target_type": "software",
+        "description": "Specifies the destination application of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type software."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "src_geo_ref",
+        "target_type": "x-oca-geo",
+        "description": "Specifies the source geographic location of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type x-oca-geo."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "dst_geo_ref",
+        "target_type": "x-oca-geo",
+        "description": "Specifies the destination geographic location of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type x-oca-geo."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "src_application_user_ref",
+        "target_type": "user-account",
+        "description": "Specifies the source application user of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type user-account."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "dst_application_user_ref",
+        "target_type": "user-account",
+        "description": "Specifies the destination application user of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type user-account."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "src_database_user_ref",
+        "target_type": "user-account",
+        "description": "Specifies the source database user of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type user-account."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "dst_database_user_ref",
+        "target_type": "user-account",
+        "description": "Specifies the destination database user of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type user-account."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "src_os_user_ref",
+        "target_type": "user-account",
+        "description": "Specifies the source operating system user of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type user-account."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "dst_os_user_ref",
+        "target_type": "user-account",
+        "description": "Specifies the destination operating system user of the finding, as a reference to the Cyber-observable Object. The object referenced must be of type user-account."
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "ttp_tagging_refs",
+        "target_type": " x-ibm-ttp-tagging",
+        "description": "List of objects reffering to x-ibm-ttp-tagging describing techniques tactics and procedures mapped to this finding, such as MITRE ATT&CK TTP's"
+    },
+    {
+        "source_type": "x-ibm-finding",
+        "field": "ioc_refs",
+        "target_type": "file, ipv4-addr, ipv6-addr, domain, url",
+        "description": "References indicators of compromise related to this finding. Must be of type file, ipv4-addr, ipv6-addr, domain, url"
+    },
+    {
+        "source_type": "x-ibm-ttp-tagging",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "x-oca-asset",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "x-oca-asset",
+        "field": "ip_refs",
+        "target_type": "ipv4-addr, ipv6-addr",
+        "description": "references the ip addresses related to this host. must be ipv4-addr or ipv6-addr"
+    },
+    {
+        "source_type": "x-oca-asset",
+        "field": "mac_refs",
+        "target_type": "mac-addr",
+        "description": "references the mac addresses related to this host. must be of type mac-addr"
+    },
+    {
+        "source_type": "x-oca-asset",
+        "field": "os_ref",
+        "target_type": "software",
+        "description": "Specifies the operating system of the asset, as a reference to the Cyber-observable Object. The object referenced must be of type software"
+    },
+    {
+        "source_type": "x-oca-asset",
+        "field": "geo_ref",
+        "target_type": "x-oca-geo",
+        "description": "references the geolocation of this host. must be of type x-oca-geo"
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "original_ref",
+        "target_type": "artifact",
+        "description": "references the original raw event data. must be of type artifact"
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "host_ref",
+        "target_type": "x-oca-asset",
+        "description": "references the host related to this event. must be of type x-oca-asset"
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "url_ref",
+        "target_type": "url",
+        "description": "references a url related to this event. must be of type url"
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "file_ref",
+        "target_type": "file",
+        "description": "references a file related to this event. must be of type file"
+    },
+    {
+        "source_type": "x-oca-event",
+        "field": "process_ref",
+        "target_type": "process",
+        "description": "references a process related to this event. must be of type process"
+    }
+]
