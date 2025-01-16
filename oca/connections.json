@@ -298,5 +298,17 @@
         "field": "object_marking_refs",
         "target_type": "marking-definition",
         "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "x-oca-playbook",
+        "field": "playbook_creator",
+        "target_type": "identity",
+        "description": "The identifier of SDO identity that created the playbook. If this object references a CACAO v2.0 playbook, then the value of this property SHOULD match the value of the created_by property in the CACAO playbook."
+    },
+    {
+        "source_type": "network-traffic",
+        "field": "x_forwarded_ip",
+        "target_type": "ipv4-addr, ipv6-addr",
+        "description": "Specifies the Host IP address when the source IP address is the proxy. Must be ipv4-addr or ipv6-addr."
     }
 ]
