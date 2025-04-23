@@ -1,0 +1,152 @@
+[
+    {
+        "source_type": "x-mitre-matrix",
+        "field": "x_mitre_modified_by_ref",
+        "target_type": "identity",
+        "description": "The STIX ID of an identity object. Used to track the identity of the individual or organization which created the current version of the object. "
+    },
+    {
+        "source_type": "x-mitre-matrix",
+        "field": "created_by_ref",
+        "target_type": "identity",
+        "description": "The created_by_ref property specifies the id property of the identity object that describes the entity that created this object."
+    },
+    {
+        "source_type": "x-mitre-matrix",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "x-mitre-matrix",
+        "field": "tactic_refs",
+        "target_type": "x-mitre-tactic",
+        "description": "The tactic_refs array of the matrix contains an ordered list of x-mitre-tactic STIX IDs corresponding to the tactics of the matrix. The order of tactic_refs determines the order the tactics should appear within the matrix."
+    },
+    {
+        "source_type": "x-mitre-tactic",
+        "field": "x_mitre_modified_by_ref",
+        "target_type": "identity",
+        "description": "The STIX ID of an identity object. Used to track the identity of the individual or organization which created the current version of the object. "
+    },
+    {
+        "source_type": "x-mitre-tactic",
+        "field": "created_by_ref",
+        "target_type": "identity",
+        "description": "The created_by_ref property specifies the id property of the identity object that describes the entity that created this object."
+    },
+    {
+        "source_type": "x-mitre-tactic",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "attack-pattern",
+        "field": "x_mitre_modified_by_ref",
+        "target_type": "identity",
+        "description": "The STIX ID of an identity object. Used to track the identity of the individual or organization which created the current version of the object. "
+    },
+    {
+        "source_type": "attack-pattern",
+        "field": "created_by_ref",
+        "target_type": "identity",
+        "description": "The created_by_ref property specifies the id property of the identity object that describes the entity that created this object."
+    },
+    {
+        "source_type": "attack-pattern",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "course-of-action",
+        "field": "x_mitre_modified_by_ref",
+        "target_type": "identity",
+        "description": "The STIX ID of an identity object. Used to track the identity of the individual or organization which created the current version of the object. "
+    },
+    {
+        "source_type": "intrusion-set",
+        "field": "x_mitre_modified_by_ref",
+        "target_type": "identity",
+        "description": "The STIX ID of an identity object. Used to track the identity of the individual or organization which created the current version of the object. "
+    },
+    {
+        "source_type": "malware",
+        "field": "x_mitre_modified_by_ref",
+        "target_type": "identity",
+        "description": "The STIX ID of an identity object. Used to track the identity of the individual or organization which created the current version of the object. "
+    },
+    {
+        "source_type": "tool",
+        "field": "x_mitre_modified_by_ref",
+        "target_type": "identity",
+        "description": "The STIX ID of an identity object. Used to track the identity of the individual or organization which created the current version of the object. "
+    },
+    {
+        "source_type": "x-mitre-data-source",
+        "field": "x_mitre_modified_by_ref",
+        "target_type": "identity",
+        "description": "The STIX ID of an identity object. Used to track the identity of the individual or organization which created the current version of the object. "
+    },
+    {
+        "source_type": "x-mitre-data-source",
+        "field": "created_by_ref",
+        "target_type": "identity",
+        "description": "The created_by_ref property specifies the id property of the identity object that describes the entity that created this object."
+    },
+    {
+        "source_type": "x-mitre-data-source",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "x-mitre-data-component",
+        "field": "x_mitre_modified_by_ref",
+        "target_type": "identity",
+        "description": "The STIX ID of an identity object. Used to track the identity of the individual or organization which created the current version of the object. "
+    },
+    {
+        "source_type": "x-mitre-data-component",
+        "field": "created_by_ref",
+        "target_type": "identity",
+        "description": "The created_by_ref property specifies the id property of the identity object that describes the entity that created this object."
+    },
+    {
+        "source_type": "x-mitre-data-component",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "x-mitre-data-component",
+        "field": "x_mitre_data_source_ref",
+        "target_type": "x-mitre-data-source",
+        "description": "STIX ID of the data source this component is a part of."
+    },
+    {
+        "source_type": "campaign",
+        "field": "x_mitre_modified_by_ref",
+        "target_type": "identity",
+        "description": "The STIX ID of an identity object. Used to track the identity of the individual or organization which created the current version of the object. "
+    },
+    {
+        "source_type": "x-mitre-asset",
+        "field": "x_mitre_modified_by_ref",
+        "target_type": "identity",
+        "description": "The STIX ID of an identity object. Used to track the identity of the individual or organization which created the current version of the object. "
+    },
+    {
+        "source_type": "x-mitre-asset",
+        "field": "created_by_ref",
+        "target_type": "identity",
+        "description": "The created_by_ref property specifies the id property of the identity object that describes the entity that created this object."
+    },
+    {
+        "source_type": "x-mitre-asset",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    }
+]

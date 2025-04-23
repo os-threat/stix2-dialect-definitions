@@ -1,0 +1,158 @@
+[
+    {
+        "source_type": "incident",
+        "field": "event_refs",
+        "target_type": "event",
+        "description": "A list of events tied to this incident. It MUST contain references to one or more Event objects."
+    },
+    {
+        "source_type": "incident",
+        "field": "impact_refs",
+        "target_type": "impact",
+        "description": "A list of impacts of this incident. It MUST contain references to one or more Impact objects. The objects referenced in this list MUST be of type impact"
+    },
+    {
+        "source_type": "incident",
+        "field": "other_object_refs",
+        "target_type": "_any",
+        "description": "A list of all SDO, SCO and SRO objects contained in this incident, not including Task, Event, Impact or Sequence objects. It MUST contain references to one or more SDO, SCO or SRO objects."
+    },
+    {
+        "source_type": "incident",
+        "field": "sequence_refs",
+        "target_type": "sequence",
+        "description": "A list of Sequence Start objects tied to this incident. It MUST contain references only to Sequence objects."
+    },
+    {
+        "source_type": "incident",
+        "field": "sequence_start_refs",
+        "target_type": "sequence",
+        "description": "A list of ence objects tied to this incident. It MUST contain references only to Sequence objects, where the step_type property is set to start_step."
+    },
+    {
+        "source_type": "incident",
+        "field": "task_refs",
+        "target_type": "task",
+        "description": "A list of tasks tied to this incident. It MUST contain references to one or more Task objects."
+    },
+    {
+        "source_type": "event",
+        "field": "created_by_ref",
+        "target_type": "identity",
+        "description": "The created_by_ref property specifies the id property of the identity object that describes the entity that created this object."
+    },
+    {
+        "source_type": "event",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "event",
+        "field": "sighting_refs ",
+        "target_type": "sighting",
+        "description": "An optional list of sighting objects that were related to this event. Sightings referenced in this SHOULD be based on attack-pattern, indicator, or malware SDOs."
+    },
+    {
+        "source_type": "event",
+        "field": "initial_ref",
+        "target_type": "_sdo",
+        "description": "The initial object state that this event affected. If the result_ref is not populated then this MUST be populated. If there is no result state this typically means that this event removed or resolved the initial object. For example, an event or task resolved a network outage."
+    },
+    {
+        "source_type": "event",
+        "field": "result_ref ",
+        "target_type": "_sdo",
+        "description": "The final state that this event influenced. If the initial_ref is populated this MUST reference the same type of SDO."
+    },
+    {
+        "source_type": "impact",
+        "field": "created_by_ref",
+        "target_type": "identity",
+        "description": "The created_by_ref property specifies the id property of the identity object that describes the entity that created this object."
+    },
+    {
+        "source_type": "impact",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "impact",
+        "field": "impacted_refs",
+        "target_type": "_any",
+        "description": "A list of all impacted entities or infrastructure. This can relate directly to Infrastructure, SCOs, and other SDOs."
+    },
+    {
+        "source_type": "impact",
+        "field": "superseded_by_ref ",
+        "target_type": "impact",
+        "description": "The referenced impact supersedes this one at the end_time for the current impact. This allows capturing how the severity of this impact changes over time."
+    },
+    {
+        "source_type": "task",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "task",
+        "field": "impacted_refs",
+        "target_type": "_any",
+        "description": "A list of all impacted entities or infrastructure. This can relate directly to Infrastructure, SCOs, and other SDOs."
+    },
+    {
+        "source_type": "task",
+        "field": "initial_ref",
+        "target_type": "_sdo",
+        "description": "The initial object state that this event affected. If the result_ref is not populated then this MUST be populated. If there is no result state this typically means that this event removed or resolved the initial object. For example, an event or task resolved a network outage."
+    },
+    {
+        "source_type": "task",
+        "field": "result_ref ",
+        "target_type": "_sdo",
+        "description": "The final state that this event influenced. If the initial_ref is populated this MUST reference the same type of SDO."
+    },
+    {
+        "source_type": "sequence",
+        "field": "superseded_by_ref ",
+        "target_type": "impact",
+        "description": "The referenced impact supersedes this one at the end_time for the current impact. This allows capturing how the severity of this impact changes over time."
+    },
+    {
+        "source_type": "sequence",
+        "field": "object_marking_refs",
+        "target_type": "marking-definition",
+        "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "sequence",
+        "field": "sequenced_object",
+        "target_type": "event, task",
+        "description": "The SDO that is part of the sequence, MUST be of type event or task.The SDO that is part of the sequence, MUST be of type event or task."
+    },
+    {
+        "source_type": "sequence",
+        "field": "on_completion",
+        "target_type": "sequence",
+        "description": "The sequence object to follow, MUST be of type sequence"
+    },
+    {
+        "source_type": "sequence",
+        "field": "on_success",
+        "target_type": "sequence",
+        "description": "The sequence object to follow, MUST be of type sequence"
+    },
+    {
+        "source_type": "sequence",
+        "field": "on_failure",
+        "target_type": "sequence",
+        "description": "The sequence object to follow, MUST be of type sequence"
+    },
+    {
+        "source_type": "sequence",
+        "field": "next_step",
+        "target_type": "sequence",
+        "description": "The sequence objects to follow, MUST be of type sequence"
+    }
+]

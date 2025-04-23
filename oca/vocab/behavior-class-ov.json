@@ -1,1 +1,6 @@
-{ "anomalous": "Unusual behavior", "normal": "Usual behavior", "emergent": "New behavior not considered abnormal", "missing": "Normal behavior not present" }
+{
+    "anomalous": "Unusual behavior",
+    "normal": "Usual behavior",
+    "emergent": "New behavior not considered abnormal",
+    "missing": "Normal behavior not present"
+}

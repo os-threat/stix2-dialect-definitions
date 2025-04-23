@@ -1,0 +1,6 @@
+{
+    "start_step": "The start step of a sequence.",
+    "end_step": "The end step of a sequence",
+    "single_step": "A single step in a sequence.",
+    "parallel_step": "Steps run in parallel to other steps"
+}
