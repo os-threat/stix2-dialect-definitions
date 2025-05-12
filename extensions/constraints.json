@@ -76,7 +76,7 @@
     "source": [
       "indicator"
     ],
-    "relationship_types": "",
+    "relationship_types": "detected",
     "target": [
       "incident"
     ],
