@@ -61,7 +61,7 @@
     },
     {
         "source_type": "event",
-        "field": "result_ref ",
+        "field": "result_ref",
         "target_type": "_sdo",
         "description": "The final state that this event influenced. If the initial_ref is populated this MUST reference the same type of SDO."
     },
@@ -85,7 +85,7 @@
     },
     {
         "source_type": "impact",
-        "field": "superseded_by_ref ",
+        "field": "superseded_by_ref",
         "target_type": "impact",
         "description": "The referenced impact supersedes this one at the end_time for the current impact. This allows capturing how the severity of this impact changes over time."
     },
@@ -109,13 +109,13 @@
     },
     {
         "source_type": "task",
-        "field": "result_ref ",
+        "field": "result_ref",
         "target_type": "_sdo",
         "description": "The final state that this event influenced. If the initial_ref is populated this MUST reference the same type of SDO."
     },
     {
         "source_type": "sequence",
-        "field": "superseded_by_ref ",
+        "field": "superseded_by_ref",
         "target_type": "impact",
         "description": "The referenced impact supersedes this one at the end_time for the current impact. This allows capturing how the severity of this impact changes over time."
     },

@@ -90,7 +90,7 @@
     "description": "A Detector that uses a data source"
   },
   {
-    "relationship_types": "occurs_before",
+    "relationship_types": "occurs-before",
     "source": [
       "x-oca-behavior"
     ],

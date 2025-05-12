@@ -379,7 +379,7 @@
     "source": [
       "malware"
     ],
-    "relationship_types": "exfiltrates-to",
+    "relationship_types": "exfiltrate-to",
     "target": [
       "infrastructure"
     ],
