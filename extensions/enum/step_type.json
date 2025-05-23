@@ -1,0 +1,6 @@
+{
+    "start_step": "the start step",
+    "end_step": "the end step",
+    "single_step": "the single step",
+    "parallel_step": "the parallel step"
+}

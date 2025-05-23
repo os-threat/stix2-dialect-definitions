@@ -1,68 +1,112 @@
 [
-    {
-        "SROType": "remediates",
-        "SourceType": "course-of-action",
-        "TargetType": "grouping",
-        "Description": "This Relationship describes that the Course of Action can be used to remediate (e.g. clean up) the behavior described in the grouping"
-    },
-    {
-        "SROType": "mitigates",
-        "SourceType": "course-of-action",
-        "TargetType": "grouping",
-        "Description": "This Relationship describes that the Course of Action can be used to mitigate (e.g. clean up) the behavior described in the grouping"
-    },
-    {
-        "SROType": "detects",
-        "SourceType": "course-of-action",
-        "TargetType": "grouping",
-        "Description": "A Course of Action that detects the behavior described in a grouping"
-    },
-    {
-        "SROType": "detects",
-        "SourceType": "x-oca-detection",
-        "TargetType": "x-oca-behavior",
-        "Description": "A Detection detects concerning behaviour"
-    },
-    {
-        "SROType": "uses",
-        "SourceType": "course-of-action",
-        "TargetType": "x-oca-detection",
-        "Description": "A Course of Action that uses a Detection"
-    },
-    {
-        "SROType": "uses",
-        "SourceType": "x-oca-behavior",
-        "TargetType": "attack-pattern",
-        "Description": "A Behaviour that uses an attack pattern"
-    },
-    {
-        "SROType": "uses",
-        "SourceType": "x-oca-detection",
-        "TargetType": "x-oca-detector",
-        "Description": "A Detection that uses a detector"
-    },
-    {
-        "SROType": "uses",
-        "SourceType": "x-oca-detector",
-        "TargetType": "x-mitre-data-component",
-        "Description": "A Detector that uses a data component"
-    },
-    {
-        "SROType": "uses",
-        "SourceType": "x-oca-detector",
-        "TargetType": "x-mitre-data-source",
-        "Description": "A Detector that uses a data source"
-    },
-    {
-        "SROType": "occurs_before",
-        "SourceType": "x-oca-behavior",
-        "TargetType": "x-oca-behavior",
-        "Description": "A Behavior  occurs before another behavior"
-    },
-    {
-        "SROType": "triggers",
-        "SourceType": "course-of-action",
-        "TargetType": "course-of-action",
-        "Description": "A Course of Action triggers another course of action"
-    }
+  {
+    "relationship_types": "remediates",
+    "source": [
+      "course-of-action"
+    ],
+    "target": [
+      "grouping"
+    ],
+    "description": "This Relationship describes that the Course of Action can be used to remediate (e.g. clean up) the behavior described in the grouping"
+  },
+  {
+    "relationship_types": "mitigates",
+    "source": [
+      "course-of-action"
+    ],
+    "target": [
+      "grouping"
+    ],
+    "description": "This Relationship describes that the Course of Action can be used to mitigate (e.g. clean up) the behavior described in the grouping"
+  },
+  {
+    "relationship_types": "detects",
+    "source": [
+      "course-of-action"
+    ],
+    "target": [
+      "grouping"
+    ],
+    "description": "A Course of Action that detects the behavior described in a grouping"
+  },
+  {
+    "relationship_types": "detects",
+    "source": [
+      "x-oca-detection"
+    ],
+    "target": [
+      "x-oca-behavior"
+    ],
+    "description": "A Detection detects concerning behaviour"
+  },
+  {
+    "relationship_types": "uses",
+    "source": [
+      "course-of-action"
+    ],
+    "target": [
+      "x-oca-detection"
+    ],
+    "description": "A Course of Action that uses a Detection"
+  },
+  {
+    "relationship_types": "uses",
+    "source": [
+      "x-oca-behavior"
+    ],
+    "target": [
+      "attack-pattern"
+    ],
+    "description": "A Behaviour that uses an attack pattern"
+  },
+  {
+    "relationship_types": "uses",
+    "source": [
+      "x-oca-detection"
+    ],
+    "target": [
+      "x-oca-detector"
+    ],
+    "description": "A Detection that uses a detector"
+  },
+  {
+    "relationship_types": "uses",
+    "source": [
+      "x-oca-detector"
+    ],
+    "target": [
+      "x-mitre-data-component"
+    ],
+    "description": "A Detector that uses a data component"
+  },
+  {
+    "relationship_types": "uses",
+    "source": [
+      "x-oca-detector"
+    ],
+    "target": [
+      "x-mitre-data-source"
+    ],
+    "description": "A Detector that uses a data source"
+  },
+  {
+    "relationship_types": "occurs-before",
+    "source": [
+      "x-oca-behavior"
+    ],
+    "target": [
+      "x-oca-behavior"
+    ],
+    "description": "A Behavior  occurs before another behavior"
+  },
+  {
+    "relationship_types": "triggers",
+    "source": [
+      "course-of-action"
+    ],
+    "target": [
+      "course-of-action"
+    ],
+    "description": "A Course of Action triggers another course of action"
+  }
 ]

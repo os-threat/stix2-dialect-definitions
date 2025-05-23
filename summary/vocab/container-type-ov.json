@@ -1,1 +1,0 @@
-[{"key": "docker", "label": "docker"}, {"key": "crio", "label": "crio"}, {"key": "mesos", "label": "mesos"}, {"key": "lxc", "label": "lxc"}, {"key": "libvirt_lxc", "label": "libvirt_lxc"}, {"key": "rkt", "label": "rkt"}, {"key": "oci", "label": "oci"}, {"key": "custom", "label": "custom"}]
