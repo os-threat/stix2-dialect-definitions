@@ -1,1 +1,46 @@
-[{"key": "facebook", "label": "facebook"}, {"key": "ldap", "label": "ldap"}, {"key": "nis", "label": "nis"}, {"key": "openid", "label": "openid"}, {"key": "radius", "label": "radius"}, {"key": "skype", "label": "skype"}, {"key": "tacacs", "label": "tacacs"}, {"key": "twitter", "label": "twitter"}, {"key": "unix", "label": "unix"}, {"key": "windows-local", "label": "windows-local"}, {"key": "windows-domain", "label": "windows-domain"}]
+[
+    {
+        "key": "facebook",
+        "label": "facebook"
+    },
+    {
+        "key": "ldap",
+        "label": "ldap"
+    },
+    {
+        "key": "nis",
+        "label": "nis"
+    },
+    {
+        "key": "openid",
+        "label": "openid"
+    },
+    {
+        "key": "radius",
+        "label": "radius"
+    },
+    {
+        "key": "skype",
+        "label": "skype"
+    },
+    {
+        "key": "tacacs",
+        "label": "tacacs"
+    },
+    {
+        "key": "twitter",
+        "label": "twitter"
+    },
+    {
+        "key": "unix",
+        "label": "unix"
+    },
+    {
+        "key": "windows-local",
+        "label": "windows-local"
+    },
+    {
+        "key": "windows-domain",
+        "label": "windows-domain"
+    }
+]

@@ -1,1 +1,26 @@
-[{"key": "stix", "label": "stix"}, {"key": "pcre", "label": "pcre"}, {"key": "sigma", "label": "sigma"}, {"key": "snort", "label": "snort"}, {"key": "suricata", "label": "suricata"}, {"key": "yara", "label": "yara"}]
+[
+    {
+        "key": "stix",
+        "label": "stix"
+    },
+    {
+        "key": "pcre",
+        "label": "pcre"
+    },
+    {
+        "key": "sigma",
+        "label": "sigma"
+    },
+    {
+        "key": "snort",
+        "label": "snort"
+    },
+    {
+        "key": "suricata",
+        "label": "suricata"
+    },
+    {
+        "key": "yara",
+        "label": "yara"
+    }
+]
