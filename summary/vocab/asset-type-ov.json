@@ -1,1 +1,86 @@
-[{"key": "building-doors", "label": "building-doors"}, {"key": "building-windows", "label": "building-windows"}, {"key": "buildings", "label": "buildings"}, {"key": "computers-mobile", "label": "computers-mobile"}, {"key": "computers-personal", "label": "computers-personal"}, {"key": "computers-server", "label": "computers-server"}, {"key": "environment", "label": "environment"}, {"key": "ics-actuator", "label": "ics-actuator"}, {"key": "ics-engineering-workstation", "label": "ics-engineering-workstation"}, {"key": "ics-historian", "label": "ics-historian"}, {"key": "ics-hmi", "label": "ics-hmi"}, {"key": "ics-other", "label": "ics-other"}, {"key": "ics-plc", "label": "ics-plc"}, {"key": "ics-safety-system", "label": "ics-safety-system"}, {"key": "ics-sensor", "label": "ics-sensor"}, {"key": "inventory", "label": "inventory"}, {"key": "network-device", "label": "network-device"}, {"key": "private-infrastructure", "label": "private-infrastructure"}, {"key": "public-infrastructure", "label": "public-infrastructure"}, {"key": "security-containers", "label": "security-containers"}, {"key": "vehicles", "label": "vehicles"}]
+[
+    {
+        "key": "building-doors",
+        "label": "building-doors"
+    },
+    {
+        "key": "building-windows",
+        "label": "building-windows"
+    },
+    {
+        "key": "buildings",
+        "label": "buildings"
+    },
+    {
+        "key": "computers-mobile",
+        "label": "computers-mobile"
+    },
+    {
+        "key": "computers-personal",
+        "label": "computers-personal"
+    },
+    {
+        "key": "computers-server",
+        "label": "computers-server"
+    },
+    {
+        "key": "environment",
+        "label": "environment"
+    },
+    {
+        "key": "ics-actuator",
+        "label": "ics-actuator"
+    },
+    {
+        "key": "ics-engineering-workstation",
+        "label": "ics-engineering-workstation"
+    },
+    {
+        "key": "ics-historian",
+        "label": "ics-historian"
+    },
+    {
+        "key": "ics-hmi",
+        "label": "ics-hmi"
+    },
+    {
+        "key": "ics-other",
+        "label": "ics-other"
+    },
+    {
+        "key": "ics-plc",
+        "label": "ics-plc"
+    },
+    {
+        "key": "ics-safety-system",
+        "label": "ics-safety-system"
+    },
+    {
+        "key": "ics-sensor",
+        "label": "ics-sensor"
+    },
+    {
+        "key": "inventory",
+        "label": "inventory"
+    },
+    {
+        "key": "network-device",
+        "label": "network-device"
+    },
+    {
+        "key": "private-infrastructure",
+        "label": "private-infrastructure"
+    },
+    {
+        "key": "public-infrastructure",
+        "label": "public-infrastructure"
+    },
+    {
+        "key": "security-containers",
+        "label": "security-containers"
+    },
+    {
+        "key": "vehicles",
+        "label": "vehicles"
+    }
+]
