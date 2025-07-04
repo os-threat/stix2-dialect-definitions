@@ -150,6 +150,66 @@
         "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
     },
     {
+        "source_type": "attack-flow",
+        "field": "start_refs",
+        "target_type": "attack-action, attack-condition",
+        "description": "A list of objects that start the flow."
+    },
+    {
+        "source_type": "attack-action",
+        "field": "tactic_ref",
+        "target_type": "x-mitre-tactic",
+        "description": "A reference to the tactic's STIX representation. For ATT&CK, this should be an x-mitre-tactic object."
+    },
+    {
+        "source_type": "attack-action",
+        "field": "technique_ref",
+        "target_type": "attack-pattern",
+        "description": "A reference to the technique's STIX representation."
+    },
+    {
+        "source_type": "attack-action",
+        "field": "command_ref",
+        "target_type": "process",
+        "description": "Describe tools or commands executed by the attacker by referring to a STIX Process object, which can represent commands, environment variables, process image, etc"
+    },
+    {
+        "source_type": "attack-action",
+        "field": "asset_refs",
+        "target_type": "attack-asset",
+        "description": "The assets involved in this action, i.e. where this action modifies or depends on the state of the asset."
+    },
+    {
+        "source_type": "attack-action",
+        "field": "effect_refs",
+        "target_type": "attack-action, attack-operator, attack-condition",
+        "description": "The potential effects that result from executing this action."
+    },
+    {
+        "source_type": "attack-asset",
+        "field": "object_ref",
+        "target_type": "_any",
+        "description": "A reference to any STIX data object (i.e. SDO) or observable (i.e. SCO) that contains structured data about this asset. This can be used to link to a STIX object that contains more information about the asset, such as its IP address, hostname, or other relevant details."
+    },
+    {
+        "source_type": "attack-condition",
+        "field": "on_true_refs",
+        "target_type": "attack-action, attack-operator, attack-condition",
+        "description": "When the condition is true, the flow continues to these objects."
+    },
+    {
+        "source_type": "attack-condition",
+        "field": "on_false_refs",
+        "target_type": "attack-action, attack-operator, attack-condition",
+        "description": "When the condition is false, the flow continues to these objects. (If there are no objects, then the flow halts at this node.)"
+    },
+    {
+        "source_type": "attack-operator",
+        "field": "effect_refs",
+        "target_type": "attack-action, attack-operator, attack-condition",
+        "description": "The effects, outcomes, or states that result when this operator evaluates to true. If the operator evaluates to false, then the flow halts"
+    },
+    {
         "source_type": "incident",
         "field": "event_refs",
         "target_type": "event",
