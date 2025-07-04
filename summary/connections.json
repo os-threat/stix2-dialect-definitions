@@ -199,7 +199,7 @@
     },
     {
         "source_type": "event",
-        "field": "sighting_refs ",
+        "field": "sighting_refs",
         "target_type": "sighting",
         "description": "An optional list of sighting objects that were related to this event. Sightings referenced in this SHOULD be based on attack-pattern, indicator, or malware SDOs."
     },
@@ -211,7 +211,7 @@
     },
     {
         "source_type": "event",
-        "field": "result_ref ",
+        "field": "result_ref",
         "target_type": "_sdo",
         "description": "The final state that this event influenced. If the initial_ref is populated this MUST reference the same type of SDO."
     },
@@ -235,7 +235,7 @@
     },
     {
         "source_type": "impact",
-        "field": "superseded_by_ref ",
+        "field": "superseded_by_ref",
         "target_type": "impact",
         "description": "The referenced impact supersedes this one at the end_time for the current impact. This allows capturing how the severity of this impact changes over time."
     },
@@ -259,13 +259,13 @@
     },
     {
         "source_type": "task",
-        "field": "result_ref ",
+        "field": "result_ref",
         "target_type": "_sdo",
         "description": "The final state that this event influenced. If the initial_ref is populated this MUST reference the same type of SDO."
     },
     {
         "source_type": "sequence",
-        "field": "superseded_by_ref ",
+        "field": "superseded_by_ref",
         "target_type": "impact",
         "description": "The referenced impact supersedes this one at the end_time for the current impact. This allows capturing how the severity of this impact changes over time."
     },
@@ -301,7 +301,7 @@
     },
     {
         "source_type": "sequence",
-        "field": "next_step",
+        "field": "next_steps",
         "target_type": "sequence",
         "description": "The sequence objects to follow, MUST be of type sequence"
     },
@@ -769,7 +769,7 @@
     },
     {
         "source_type": "file",
-        "field": "contains_refs ",
+        "field": "contains_refs",
         "target_type": "file, directory",
         "description": "This property specifies the files that are contained in the archive. It MUST contain references to one or more File objects."
     },
@@ -781,13 +781,13 @@
     },
     {
         "source_type": "ipv4-addr",
-        "field": "resolves_to_refs ",
+        "field": "resolves_to_refs",
         "target_type": "mac-addr",
         "description": "Specifies a list of references to one or more Layer 2 Media Access Control (MAC) addresses that the IPv4 address resolves to."
     },
     {
         "source_type": "ipv4-addr",
-        "field": "belongs_to_refs ",
+        "field": "belongs_to_refs",
         "target_type": "autonomous-system",
         "description": "Specifies a list of references to one or more autonomous systems (AS) that the IPv4 address belongs to."
     },
@@ -799,13 +799,13 @@
     },
     {
         "source_type": "ipv6-addr",
-        "field": "resolves_to_refs ",
+        "field": "resolves_to_refs",
         "target_type": "mac-addr",
         "description": "Specifies a list of references to one or more Layer 2 Media Access Control (MAC) addresses that the IPv6 address resolves to."
     },
     {
         "source_type": "ipv6-addr",
-        "field": "belongs_to_refs ",
+        "field": "belongs_to_refs",
         "target_type": "autonomous-system",
         "description": "Specifies a list of references to one or more autonomous systems (AS) that the IPv6 address belongs to."
     },
@@ -847,13 +847,13 @@
     },
     {
         "source_type": "network-traffic",
-        "field": "dst_payload_ref ",
+        "field": "dst_payload_ref",
         "target_type": "artifact",
         "description": "Specifies the bytes sent from the destination to the source."
     },
     {
         "source_type": "network-traffic",
-        "field": "encapsulates_refs ",
+        "field": "encapsulates_refs",
         "target_type": "network-traffic",
         "description": "Links to other network-traffic objects encapsulated by this network-traffic object."
     },
@@ -865,7 +865,7 @@
     },
     {
         "source_type": "network-traffic",
-        "field": "message_body_data_ref ",
+        "field": "message_body_data_ref",
         "target_type": "artifact",
         "description": "Specifies the data contained in the HTTP message body, if included."
     },
@@ -877,13 +877,13 @@
     },
     {
         "source_type": "process",
-        "field": "opened_connection_refs ",
+        "field": "opened_connection_refs",
         "target_type": "network-traffic",
         "description": "Specifies the list of network connections opened by the process, as a reference to one or more Network Traffic objects."
     },
     {
         "source_type": "process",
-        "field": "creator_user_ref ",
+        "field": "creator_user_ref",
         "target_type": "user-account",
         "description": "Specifies the user that created the process, as a reference to a User Account object."
     },
@@ -907,7 +907,7 @@
     },
     {
         "source_type": "process",
-        "field": "service_dll_refs ",
+        "field": "service_dll_refs",
         "target_type": "file",
         "description": "Specifies the DLLs loaded by the service, as a reference to one or more File objects."
     },
@@ -937,7 +937,7 @@
     },
     {
         "source_type": "windows-registry-key",
-        "field": "creator_user_ref ",
+        "field": "creator_user_ref",
         "target_type": "user-account",
         "description": "Specifies a reference to the user account that created the registry key."
     },

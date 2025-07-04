@@ -1,4 +1,12 @@
 {
+    "denial-of-service": "Tools used to perform denial of service attacks or DDoS attacks, such as Low Orbit Ion Cannon (LOIC) and DHCPig.",
+    "exploitation": "Tools used to exploit software and systems, such as sqlmap and Metasploit.",
+    "information-gathering": "Tools used to enumerate system and network information, e.g., NMAP.",
+    "network-capture": "Tools used to capture network traffic, such as Wireshark and Kismet.",
+    "credential-exploitation": "Tools used to crack password databases or otherwise exploit/discover credentials, either locally or remotely, such as John the Ripper and NCrack.",
+    "remote-access": "Tools used to access machines remotely, such as VNC and Remote Desktop.",
+    "vulnerability-scanning": "Tools used to scan systems and networks for vulnerabilities, e.g., Nessus.",
+    "unknown": "There is not enough information available to determine the type of tool.",
     "hypervisors-virtualization": "Tools used to virtualize execution of commands or operating systems with direct access and control to underlying hardware, such as VDI or containers.",
     "identity-access-management": "Tools used to store secrets that can be stolen or abused, such as corporate directories, PKI etc.",
     "security-monitoring": "Tools used to provide the defender the ability to monitor for malicious behaviors, such as SIEM or SOAR tools.",
