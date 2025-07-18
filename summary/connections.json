@@ -1030,5 +1030,53 @@
         "field": "object_marking_refs",
         "target_type": "marking-definition",
         "description": "The object_marking_refs property specifies a list of id properties of marking-definition objects that apply to this object."
+    },
+    {
+        "source_type": "malware-behavior",
+        "field": "related_object_refs",
+        "target_type": "attack-pattern",
+        "description": "Related objects from other knowledge bases, such as ATT&CK, that are relevant to this behavior."
+    },
+    {
+        "source_type": "malware-behavior",
+        "field": "objective_refs",
+        "target_type": "malware-objective",
+        "description": "The malware objective objects associated with the behavior. "
+    },
+    {
+        "source_type": "malware-behavior",
+        "field": "contributor_refs",
+        "target_type": "identity",
+        "description": "The contributors to the malware behavior."
+    },
+    {
+        "source_type": "malware-method",
+        "field": "behavior_ref",
+        "target_type": "malware-behavior",
+        "description": "The STIX identifier of the parent behavior object associated with the method."
+    },
+    {
+        "source_type": "malware-method",
+        "field": "contributor_refs",
+        "target_type": "identity",
+        "description": "The contributors to the malware method information."
+    },
+    {
+        "source_type": "malware-behavior",
+        "field": "detect_ref",
+        "target_type": "malware-method",
+        "description": "When a rule detects a specific method, as opposed to a behavior more generally, this property specifies the method."
+    },
+    {
+        "source_type": "malware-behavior",
+        "field": "exemplify_ref",
+        "target_type": "malware-method",
+        "description": "When a snippet exemplifies a specific method, as opposed to a behavior more generally, this property specifies the method"
+    },
+    {
+        "source_type": "malware-behavior",
+        "field": "author_ref",
+        "target_type": "identity",
+        "description": "The author of the snippet."
     }
 ]

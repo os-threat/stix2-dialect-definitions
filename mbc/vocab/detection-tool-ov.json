@@ -1,0 +1,7 @@
+{
+	"virustotal": "VirusTotal",
+	"yara": "YARA",
+	"capa": "The capa static analysis tool",
+	"manual": "A manual rule or text-based information",
+	"sigma": "A sigma rule"
+}

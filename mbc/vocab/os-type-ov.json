@@ -1,0 +1,7 @@
+{
+	"android": "The Android platform.",
+	"ios": "The iOS platform.",
+	"linux": "The Linux platform.",
+	"macos": "The macOS platform.",
+	"windows": "The Windows platform."
+}

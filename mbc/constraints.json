@@ -1,0 +1,44 @@
+[
+  {
+    "source": [
+      "malware"
+    ],
+    "relationship_types": "uses",
+    "target": [
+      "malware-behavior",
+      "malware-method",
+      "malware-objective"
+    ],
+    "description": "The source is used by the target"
+  },
+  {
+    "source": [
+      "malware"
+    ],
+    "relationship_types": "drops",
+    "target": [
+      "malware"
+    ],
+    "description": "The source drops the target"
+  },
+  {
+    "source": [
+      "malware-behavior"
+    ],
+    "relationship_types": "led-to",
+    "target": [
+      "malware-behavior"
+    ],
+    "description": "The source led to the target"
+  },
+  {
+    "source": [
+      "malware-behavior"
+    ],
+    "relationship_types": "delivers",
+    "target": [
+      "malware"
+    ],
+    "description": "The source delivers the target"
+  }
+]

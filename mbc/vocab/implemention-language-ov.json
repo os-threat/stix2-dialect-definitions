@@ -1,0 +1,8 @@
+{
+	"asm": "Specifies assembly programming language",
+	"c": "Specifies C programming language",
+	"cpp": "Specifies C++ programming language",
+	"cmd": "Specifies the cmd shell scripting language.",
+	"delphi": "Specifies Delphi programming language",
+	"masm": "Specifies MASM (Microsoft Macro Assembler) programming language"
+}
